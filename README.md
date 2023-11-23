@@ -6,34 +6,34 @@
 
 In this section, I have described the analysis completed for the machine learning models; this includes:
 
-* The purpose of the analysis.
+  * The purpose of the analysis.
 
-This analysis was performed to identify the creditworthiness of borrowers.
+  This analysis was performed to identify the creditworthiness of borrowers.
 
-* An explanation of what financial information the data was on, and what what was needed to calculate the predictions.
+  * An explanation of what financial information the data was on, and what what was needed to calculate the predictions.
 
-I have used various techniques to train and evaluate a model based on loan risk by using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+  I have used various techniques to train and evaluate a model based on loan risk by using a dataset of historical lending activity from a peer-to-peer lending services company to   build a model that can identify the creditworthiness of borrowers.
 
-* Variables used for the predictions:
+  * Variables used for the predictions:
 
-'value_counts' was used to check the balance of our target values.
+  'value_counts' was used to check the balance of our target values.
 
-* The stages of the machine learning process as part of this analysis:
+  * The stages of the machine learning process as part of this analysis:
 
-  - The Data was split into Training and Testing Sets
-  -  A Logistic Regression Model was created with the Original Data
-  -  Credit Risk Analysis Report was written which provided an overview of the analysis with a summary of the results. 
+    - The Data was split into Training and Testing Sets
+    -  A Logistic Regression Model was created with the Original Data
+    -  Credit Risk Analysis Report was written which provided an overview of the analysis with a summary of the results. 
 
-* Methods you used:
+  * Methods you used:
   
-The Logistic Regression Model was used to perform this analysis.
+  The Logistic Regression Model was used to perform this analysis.
 
 ---
 
 ## Results
 
 The balanced accuracy scores and the precision and recall scores are appended below:
-Using bulleted lists, describe 
+
   - Accuracy:  99.24%
   - Precision: 87.46%
   - Recall:    89.28%
