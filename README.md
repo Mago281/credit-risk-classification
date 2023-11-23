@@ -4,34 +4,42 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+In this section, I have described the analysis completed for the machine learning models; this includes:
 
-* Explain the purpose of the analysis.
+* The purpose of the analysis.
+
 This analysis was performed to identify the creditworthiness of borrowers.
 
-* Explain what financial information the data was on, and what you needed to predict.
-I have used various techniques to train and evaluate a model based on loan risk. I have used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+* An explanation of what financial information the data was on, and what what was needed to calculate the predictions.
 
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+I have used various techniques to train and evaluate a model based on loan risk by using a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+
+* Variables used for the predictions:
+
 'value_counts' was used to check the balance of our target values.
 
-* Describe the stages of the machine learning process you went through as part of this analysis.
-The Data was split into Training and Testing Sets
-A Logistic Regression Model was created with the Original Data
-Credit Risk Analysis Report was written which provided an overview of the analysis with a summary of the results. 
+* The stages of the machine learning process as part of this analysis:
 
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+  - The Data was split into Training and Testing Sets
+  -  A Logistic Regression Model was created with the Original Data
+  -  Credit Risk Analysis Report was written which provided an overview of the analysis with a summary of the results. 
+
+* Methods you used:
+  
 The Logistic Regression Model was used to perform this analysis.
+
+---
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores.
-![Alt text](image.png)
-- Accuracy:  99.24%
-- Precision: 87.46%
-- Recall:    89.28%
-- F1 Score:  88.36%
+The balanced accuracy scores and the precision and recall scores are appended below:
+Using bulleted lists, describe 
+  - Accuracy:  99.24%
+  - Precision: 87.46%
+  - Recall:    89.28%
+  - F1 Score:  88.36%
 
+---
 
 ## Summary
 
